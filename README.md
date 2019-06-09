@@ -1,5 +1,5 @@
 # MMM-Transloc
-`MMM-Transloc` was created to use with the same API that Rider App uses and commonly used around many college campus bus systems.
+`MMM-Transloc` was created to use with the same API that Rider App uses while still needing improvements its better than nothing.
 
 ![Full](example.png)
 
@@ -9,7 +9,7 @@
 
 You will also need to create a API key at [RapidAPI](https://rapidapi.com/transloc/api/openapi-1-2)
 
-to find your particular Agency Number type with your API key placed in
+to find your particular Agency Number use the code below with your API key placed in
 ````bash
 curl --get --include 'https://transloc-api-1-2.p.rapidapi.com/agencies.json?'   -H 'X-RapidAPI-Host: transloc-api-1-2.p.rapidapi.com'   -H 'X-RapidAPI-Key: YOUR KEY' >> AllAgencies.txt
 ````
@@ -44,5 +44,5 @@ modules: [
 ]
 ````
 
-## Example
+
 
